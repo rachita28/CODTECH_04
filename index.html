@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apni Class | E-Learning</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Apni Class</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#materials">Study Materials</a>
+    <a href="#progress">Progress</a>
+    <a href="#">Login/Signup</a>
+  </nav>
+
+  <main>
+    <!-- Course Listing -->
+    <section id="courses">
+      <h2>Courses</h2>
+      <div class="video-container">
+        <video src="chemistry.mp4" poster="chemistry.jpeg" controls></video>
+        <video src="Physics.mp4" poster="physics.jpeg" controls></video>
+        <video src="maths.mp4" poster="maths.jpeg" controls></video>
+      </div>
+    </section>
+
+    <!-- College Reviews -->
+    <section id="reviews">
+      <h2>College Reviews</h2>
+      <div class="review-container">
+        <iframe src="https://www.youtube.com/embed/4QdxVVDmI0E" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/v9Hg4pPmvvo" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/-00MSKtJN1M" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Study Materials -->
+    <section id="materials">
+  <h2>Study Materials</h2>
+  <div class="material-container">
+    <div class="material-card">
+      <a href="Unit_1_C_Pointer_Notes_APC.pdf" target="_blank">
+        <img src="pointers.jpeg" alt="Pointers Notes">
+        <h4>C Pointers</h4>
+      </a>
+    </div>
+    <div class="material-card">
+      <a href="Unit_2_Structure_Notes_APC.docx" target="_blank">
+        <img src="structure.jpeg" alt="Structure Notes">
+        <h4>Structures</h4>
+      </a>
+    </div>
+    <div class="material-card">
+      <a href="Unit_3__Pre_Processor_Directives_Notes_APC.pdf" target="_blank">
+        <img src="preprocessor.jpeg" alt="Preprocessor Directives">
+        <h4>Preprocessor</h4>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Progress Tracking -->
+    <section id="progress">
+      <h2>Your Learning Progress</h2>
+      <div class="progress-box">
+        <label>Course 1: HTML</label>
+        <progress value="80" max="100"></progress>
+        <label>Course 2: CSS</label>
+        <progress value="60" max="100"></progress>
+        <label>Course 3: JavaScript</label>
+        <progress value="30" max="100"></progress>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <p>&copy; 2025 Apni Class</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
